@@ -1,0 +1,48 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+ul {
+  list-style: upper-roman;
+  flex-direction: row;
+  width: 50vw;
+}
+
+button,
+input {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #777;
+}
+
+button {
+  margin-left: 5px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.fav-icon {
+  display: none !important;
+}
+
+span:hover > i.fav-icon {
+  display: inline !important;
+}
+
+span:hover > i.star:hover {
+  cursor: pointer;
+}
+
+.checked-item {
+  text-decoration: line-through;
+}
