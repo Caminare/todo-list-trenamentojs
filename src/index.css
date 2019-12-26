@@ -7,7 +7,7 @@ body {
 }
 
 ul {
-  list-style: upper-roman;
+  list-style: square;
   flex-direction: row;
   width: 50vw;
 }
@@ -45,4 +45,5 @@ span:hover > i.star:hover {
 
 .checked-item {
   text-decoration: line-through;
+  font-weight: bold;
 }
